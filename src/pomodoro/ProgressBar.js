@@ -11,8 +11,8 @@ function ProgressBar({ timeInSession, timeLeft }) {
                 role="progressbar"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                aria-valuenow={percentComplete} 
-                style={{ width: `${percentComplete}%` }} 
+                aria-valuenow={percentComplete} // TODO: Increase aria-valuenow as elapsed time increases
+                style={{ width: `${percentComplete}%` }} // TODO: Increase width % as elapsed time increases
               />
             </div>
           </div>
