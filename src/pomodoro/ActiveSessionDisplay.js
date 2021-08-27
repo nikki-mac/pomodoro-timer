@@ -2,6 +2,8 @@ import React from "react";
 import SessionTime from "./SessionTime";
 import ProgressBar from "./ProgressBar";
 
+ /* Displays when there is an active focus or break session only (playing or paused) */ 
+
 function ActiveSessionDisplay({ play, pause, typeOfSession, sessionTimes, timeInSession }) {
     if (!play) return null;
 
