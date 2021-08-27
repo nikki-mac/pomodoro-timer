@@ -25,6 +25,8 @@ function PlayPauseStopButtons({ playPauseHandler, stopHandler, play, pause }) {
                 })}
               />
             </button>
+                           
+           {/* TODO: Disable the stop button when there is no active session */}                
             <button
               type="button"
               className="btn btn-secondary"
