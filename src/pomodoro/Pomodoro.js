@@ -26,7 +26,8 @@ function Pomodoro() {
   const [session, setSession] = useState(initialState);
 
   
-  // ToDo: Allow the user to adjust the focus and break duration.
+  /* --ToDo: Allow the user to adjust the focus and break duration.
+  called when + or - buttons are clicked for focus or break */
   function timerControlsHandler(plusOrMinus, sessionType) {
     const initialTime = session[sessionType];
     const range = timerRanges[sessionType];
@@ -39,6 +40,9 @@ function Pomodoro() {
     }));
   }
 
+  /**
+   * Called whenever the play/pause button is clicked.
+   */
     function playPauseHandler() {
     if (!session.pause) {
       const { typeOfSession } = session;
@@ -50,6 +54,8 @@ function Pomodoro() {
     }));
   }
 
+  /* --TODO: Implement stopping the current focus or break session.
+     Called whenever the stop button is clicked */
   function stopHandler() {
     setSession((session) => ({
       ...initialState
@@ -66,7 +72,8 @@ function timerCount() {
   }));
 }
 
-  
+/* Plays session end audio, and switches sessions 
+from Focus to Break and from Break to Focus */  
 function nextSession() {
   new Audio('https://bigsoundbank.com/UPLOAD/mp3/1830.mp3').play();
   const switchSession = session.typeOfSession === 'focus' ? 'break' : 'focus';
@@ -81,6 +88,8 @@ function nextSession() {
   function endSession() {
     return session.timeInSession === session[session.typeOfSession] * 60;
   }
+  // console.log(session.typeOfSession)
+  // console.log(session[session.typeOfSession])
   
   
   /**
