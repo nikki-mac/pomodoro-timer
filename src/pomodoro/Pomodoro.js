@@ -108,25 +108,25 @@ function nextSession() {
 
 
       <TimerControls 
-      timerControlsHandler={timerControlsHandler}
-      disabled={session.play}
-      sessionType={['focus', 'break']}
-      time={[session.focus, session.break]}
+        timerControlsHandler={timerControlsHandler}
+        disabled={session.play}
+        sessionType={['focus', 'break']}
+        time={[session.focus, session.break]}
       />
 
       <PlayPauseStopButtons 
-      pause={session.pause}
-      play={session.play}
-      stopHandler={stopHandler}
-      playPauseHandler={playPauseHandler}
+        pause={session.pause}
+        play={session.play}
+        stopHandler={stopHandler}
+        playPauseHandler={playPauseHandler}
       />
 
       <ActiveSessionDisplay 
-      typeOfSession={session.typeOfSession}
-      play={session.play}
-      pause={session.pause}
-      sessionTimes={[session.focus, session.break]}
-      timeInSession={session.timeInSession}
+        typeOfSession={session.typeOfSession}
+        play={session.play}
+        pause={session.pause}
+        sessionTimes={[session.focus, session.break]}
+        timeInSession={session.timeInSession}
       />        
 
 
