@@ -44,9 +44,6 @@ function Pomodoro() {
    * Called whenever the play/pause button is clicked.
    */
     function playPauseHandler() {
-    if (!session.pause) {
-      const { typeOfSession } = session;
-    }
     setSession((session) => ({
       ...session,
       pause: !session.pause,
@@ -64,8 +61,6 @@ function Pomodoro() {
 
   
 function timerCount() {
-  const {typeOfSession, timeInSession} = session;
-  const timeRemaining = session[typeOfSession] * 60 - timeInSession;
   setSession((session) => ({
     ...session,
     timeInSession: session.timeInSession + 1
