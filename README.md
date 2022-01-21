@@ -64,8 +64,8 @@ Additional Instructions:
 
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+### 🍅 Focusing
+![pomodoro focusing](./assets/App-Screenshots/full-dashboard-view.png "Full Dashboard View: Reservations and Tables")
 
 ## 🖥 Run Locally
 
