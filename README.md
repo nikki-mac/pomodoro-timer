@@ -51,7 +51,16 @@ Additional Instructions:
 
 
 ## ⭐️ Demo
-⭐️ [Click here for live demo](http://pomodoro-timer-nikki-mac.vercel.app) ⭐️
+### ⭐️ [Click here for live demo](http://pomodoro-timer-nikki-mac.vercel.app) ⭐️
+
+### 🍅 Focusing
+![pomodoro focusing](./assets/screenshots/pomodoro-focus-capture.gif "Pomodoro Focusing")
+
+### 🍅 Adjust Focus and Break Time
+![pomodoro adjust focus and break time](./assets/screenshots/pomodoro-adjust-focus-break-time.gif "Adjust focus and break time")
+
+### 🍅 Play, Pause, and Stop Timer
+![play, pause, and stop pomodoro timer](./assets/screenshots/pomodoro-play-pause-stop.gif "Play, pause, and stop timer")
 
 
 ## 💻 Tech Stack
@@ -64,8 +73,17 @@ Additional Instructions:
 
 ## 📸 Screenshots
 
-### 🍅 Focusing
-![pomodoro focusing](./assets/App-Screenshots/full-dashboard-view.png "Full Dashboard View: Reservations and Tables")
+### 🍅 Initial Screen
+![pomodoro initial screen](./assets/screenshots/pomodoro-initial-screen.png "Pomodoro Initial Screen")
+
+### 🍅 Play Screen: Focusing
+![pomodoro play screen: focusing](./assets/screenshots/pomodoro-play-screen-focusing.png "Pomodoro Play Screen: Focusing")
+
+### 🍅 Play Screen: Break
+![pomodoro play screen: break](./assets/screenshots/pomodoro-break-screen.png "Pomodoro Play Screen: Break")
+
+### 🍅 Paused Screen
+![pomodoro paused screen](./assets/screenshots/pomodoro-paused-screen.png "Pomodoro Paused Screen")
 
 ## 🖥 Run Locally
 
